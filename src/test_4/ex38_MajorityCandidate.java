@@ -7,7 +7,7 @@ class Solution8 {
 		int[] arr = new int[n + 1]; // 후보자의 번호를 인덱스로 사용하기 위해 +1을 함 (인덱스 0번은 사용 안 한다는 뜻)
 		for (int i = 0; i < votes.length; i++) {
 			arr[votes[i]]++;
-		}
+		} 
 		for (int i = 1; i < n + 1; i++)
 			if (arr[i] > votes.length / 2)
 				return i;
