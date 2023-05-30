@@ -11,7 +11,7 @@ class Solution8 {
 		for (int i = 1; i < n + 1; i++)
 			if (arr[i] > votes.length / 2)
 				return i;
-		return -1;
+		return -1; 
 	}
 }
 
