@@ -1,6 +1,6 @@
 package test_4;
 
-import java.util.*;
+import java.util.*; 
 
 class Solution10 {
 	public int solution10(int[] scores, int cutline) {
